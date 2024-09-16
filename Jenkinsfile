@@ -10,7 +10,7 @@ pipeline{
         stage("one"){
             steps{
                 sh "rm -rf *"
-                sh "git clone https://github.com/RushikeshBorkar/practice123.git"
+                sh "git clone https://github.com/RushikeshBorkar/repo-1.git"
             }
         }
     }
